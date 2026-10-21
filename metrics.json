@@ -1,0 +1,71 @@
+{
+  "selected_model": "Random Forest",
+  "threshold": 0.29140981510293446,
+  "test": {
+    "threshold": 0.291,
+    "precision": 0.5242718446601942,
+    "recall": 0.7941176470588235,
+    "f1": 0.631578947368421,
+    "f2": 0.72,
+    "roc_auc": 0.9681258372914383,
+    "pr_auc": 0.7216353604614276,
+    "TP": 54,
+    "FN": 14,
+    "FP": 49,
+    "TN": 1883
+  },
+  "validation": {
+    "Logistic Regression (default 0.5)": {
+      "threshold": 0.5,
+      "precision": 0.142,
+      "recall": 0.824,
+      "f1": 0.243,
+      "f2": 0.421,
+      "roc_auc": 0.879,
+      "pr_auc": 0.368,
+      "TP": 56.0,
+      "FN": 12.0,
+      "FP": 337.0,
+      "TN": 1595.0
+    },
+    "Logistic Regression (tuned (F2))": {
+      "threshold": 0.765,
+      "precision": 0.283,
+      "recall": 0.574,
+      "f1": 0.379,
+      "f2": 0.476,
+      "roc_auc": 0.879,
+      "pr_auc": 0.368,
+      "TP": 39.0,
+      "FN": 29.0,
+      "FP": 99.0,
+      "TN": 1833.0
+    },
+    "Random Forest (default 0.5)": {
+      "threshold": 0.5,
+      "precision": 0.729,
+      "recall": 0.515,
+      "f1": 0.603,
+      "f2": 0.547,
+      "roc_auc": 0.963,
+      "pr_auc": 0.692,
+      "TP": 35.0,
+      "FN": 33.0,
+      "FP": 13.0,
+      "TN": 1919.0
+    },
+    "Random Forest (tuned (F2))": {
+      "threshold": 0.291,
+      "precision": 0.481,
+      "recall": 0.765,
+      "f1": 0.591,
+      "f2": 0.684,
+      "roc_auc": 0.963,
+      "pr_auc": 0.692,
+      "TP": 52.0,
+      "FN": 16.0,
+      "FP": 56.0,
+      "TN": 1876.0
+    }
+  }
+}
